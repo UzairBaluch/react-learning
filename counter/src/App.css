@@ -1,0 +1,114 @@
+/* ------------------------------ */
+/*      YOUR EXISTING STYLES      */
+/* ------------------------------ */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.Card {
+  padding: 2em;
+  background-color: aqua;
+  color: azure;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* ------------------------------ */
+/*         NEW COUNTER UI         */
+/* ------------------------------ */
+
+/* Group for Increase, Decrease, Reset buttons */
+.btn-group {
+  margin: 15px 0;
+}
+
+/* Base button styling */
+.btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+/* Specific button colors */
+.increase {
+  background-color: #4caf50;
+  color: white;
+}
+
+.decrease {
+  background-color: #ff9800;
+  color: white;
+}
+.five{
+background-color: #000;
+  color: white;
+}
+
+.reset {
+  background-color: #f44336;
+  color: white;
+}
+
+.set-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Hover effect for all buttons */
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* Input + Set Count wrapper */
+.input-section {
+  margin-top: 20px;
+}
+
+/* Input field styling */
+.count-input {
+  padding: 8px;
+  width: 100px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
